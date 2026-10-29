@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0a1d">
+  <meta name="description" content="Meowldrin & Rensie — horror, misteri e videogiochi. YouTube, Twitch e Instagram in un posto solo.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Meowldrin & Rensie · Link">
+  <meta property="og:description" content="Horror, misteri e videogiochi. In due, con voi. Seguici su YouTube, Twitch e Instagram.">
+  <title>Meowldrin & Rensie — Tutti i link</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #f7f5ff;
+      --muted: #b0aaca;
+      --line: rgba(216,204,255,.17);
+      --accent: #b69aff;
+      --blue: #8ce9ff;
+      --card: rgba(28,24,57,.75);
+    }
+    *,*::before,*::after { box-sizing: border-box; }
+    html { min-height: 100%; background:#0b0a1d; }
+    body {
+      margin:0; min-height:100vh; color:var(--ink);
+      font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      background:
+        radial-gradient(ellipse 65% 35% at 15% 8%, rgba(111,64,201,.27),transparent 70%),
+        radial-gradient(ellipse 55% 45% at 100% 75%, rgba(13,109,167,.18),transparent 75%),
+        radial-gradient(ellipse 70% 45% at 60% 100%, rgba(89,47,153,.13),transparent 80%),
+        #0b0a1d;
+    }
+    body::before {
+      position:fixed; content:""; inset:0; z-index:-1; pointer-events:none; opacity:.35;
+      background-image: radial-gradient(#fff 0.7px, transparent 1px);
+      background-size: 37px 43px;
+      mask-image: linear-gradient(to bottom,#000,transparent 82%);
+    }
+    a { color:inherit; }
+    .shell { max-width: 492px; padding: 46px 20px 28px; margin: 0 auto; }
+    .header { text-align:center; }
+    .avatar-wrap {
+      width:112px; height:112px; margin: 0 auto 20px; padding:5px; border-radius:36px;
+      background:linear-gradient(145deg,rgba(188,163,255,.98),rgba(104,223,250,.9));
+      box-shadow:0 14px 48px rgba(141,89,255,.26),0 0 0 7px rgba(175,128,255,.075);
+    }
+    .avatar { background:#171335; border-radius:31px; height:100%; display:grid; place-items:center; overflow:hidden; }
+    .avatar svg { width:93px; height:93px; }
+    .small-kicker { font-size:11px; font-weight:800; letter-spacing:.28em; color:var(--blue); text-transform:uppercase; }
+    h1 { font-size:clamp(28px,7vw,37px); font-weight:900; letter-spacing:-.055em; line-height:1.08; margin:9px 0 0; }
+    .amp { color:var(--accent); }
+    .lead { margin:14px auto 16px; max-width:340px; color:#cbc5df; line-height:1.6; font-size:14px; }
+    .pills { display:flex; justify-content:center; gap:7px; margin-bottom:29px; flex-wrap:wrap; }
+    .pill { border:1px solid rgba(188,172,246,.23); background:rgba(179,143,255,.08); color:#cfc5eb; border-radius:99px; padding:5px 10px; font-size:11px; font-weight:650; }
+    .featured { display:block; text-decoration:none; position:relative; overflow:hidden; background:linear-gradient(120deg,#6e4ccf 0%,#44318b 55%,#253d70 100%); border-radius:22px; border:1px solid rgba(219,207,255,.29); padding:23px 21px 21px; box-shadow:0 12px 38px rgba(64,33,127,.3); transition:transform .2s,border-color .2s; }
+    .featured::after { content:""; position:absolute; width:150px;height:150px; border:23px solid rgba(198,174,255,.11); border-radius:50%; right:-65px;top:-56px; }
+    .featured .kicker { font-weight:850; font-size:10px;letter-spacing:.18em;color:#c8fdff; }
+    .featured h2 { margin:10px 0 8px; max-width:270px; font-size:24px; letter-spacing:-.035em; line-height:1.16; }
+    .featured p { max-width:328px;font-size:12px;line-height:1.55;color:#ece5ff;margin:0; }
+    .featured-cta {display:flex; align-items:center; gap:8px; margin-top:19px; font-weight:800; font-size:13px; }
+    .featured-cta svg {width:17px;height:17px;}
+    .section-label {display:flex;align-items:center; gap:11px;margin:27px 1px 12px;color:#aea6c9; text-transform:uppercase;letter-spacing:.15em;font-size:10px;font-weight:850;}
+    .section-label::after {content:"";height:1px;background:var(--line);flex:1;}
+    .links {display:grid;gap:10px;}
+    .link { display:flex; align-items:center; gap:14px; min-height:79px; padding:13px 16px; background:var(--card); border:1px solid var(--line); border-radius:17px; text-decoration:none; transition:transform .2s, background-color .2s,border-color .2s; }
+    .link-icon { display:grid;place-items:center;width:44px;height:44px;flex:none;border-radius:13px;background:rgba(255,255,255,.065); }
+    .link-icon svg {height:23px;width:23px;}
+    .link-icon.youtube {color:#ff747f;background:rgba(254,60,83,.12)}
+    .link-icon.twitch {color:#cbb3ff;background:rgba(144,97,255,.15)}
+    .link-icon.instagram {color:#ffa7ce;background:rgba(255,113,171,.12)}
+    .link-main {min-width:0;flex:1;}
+    .link-title {font-weight:800;font-size:15px;letter-spacing:-.01em;}
+    .link-sub {font-size:11px;line-height:1.5;color:var(--muted);margin-top:3px;}
+    .arrow {color:#ac9dcf;width:18px;height:18px;flex:none;}
+    .demo { margin: 0 0 16px; border:1px dashed rgba(140,233,255,.42); background:rgba(21,75,111,.20); border-radius:12px; padding:10px 12px; color:#d3f4ff; font-size:12px; line-height:1.5; }
+    .link.disabled {cursor:default;opacity:.56;}
+    .featured.disabled {cursor:default;opacity:.74;}
+    footer { margin-top:32px;text-align:center; font-size:11px;color:#8982a7;line-height:1.7; }
+    footer strong { color:#b7aed5; font-weight:700; }
+    @media (hover:hover) { a.link:hover { transform:translateY(-2px); border-color:rgba(182,154,255,.63);background:rgba(44,35,88,.91); } a.featured:hover {transform:translateY(-2px);border-color:#e1d8ff;} }
+    a:focus-visible {outline:3px solid var(--blue);outline-offset:3px;}
+    @media (max-width:380px) {.shell {padding:32px 15px 22px;} .featured {padding:20px;} .featured h2 {font-size:21px;} }
+    @media (prefers-reduced-motion:reduce) {.featured,.link {transition:none;} }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="header">
+      <div class="avatar-wrap" role="img" aria-label="Emblema illustrato di un gatto astronauta">
+        <div class="avatar">
+          <svg viewBox="0 0 96 96" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="helmet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8de5f7"/><stop offset="1" stop-color="#b9a0ff"/></linearGradient></defs>
+            <circle cx="48" cy="48" r="38" fill="none" stroke="#9975ec" stroke-width="4" stroke-dasharray="8 5" opacity=".65"/>
+            <path d="M27 36 30 20 43 31 M69 36 66 20 53 31" fill="#6b4bb2" stroke="#dbcbff" stroke-width="3" stroke-linejoin="round"/>
+            <path d="M24 48c0-17 10-25 24-25s24 8 24 25v5c0 16-10 26-24 26S24 69 24 53z" fill="#ab8ce2"/>
+            <path d="M29 43c3-11 11-14 19-14s16 3 19 14v13c-3 11-11 17-19 17s-16-6-19-17z" fill="#222245" stroke="url(#helmet)" stroke-width="3"/>
+            <path d="M35 50q5-6 10 0 M51 50q5-6 10 0" stroke="#c9faff" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+            <path d="m45 59 3 3 3-3z" fill="#f8adf5"/><path d="M48 62q-4 6-8 1 M48 62q4 6 8 1" fill="none" stroke="#f4d3fb" stroke-width="2" stroke-linecap="round"/>
+            <path d="M20 52c-3 4-3 10 2 13" fill="none" stroke="#9bf0f4" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="76" cy="23" r="3" fill="#a9f4ff"/><circle cx="17" cy="28" r="2" fill="#c6a1ff"/>
+          </svg>
+        </div>
+      </div>
+      <div class="small-kicker">Benvenuti a bordo</div>
+      <h1>Meowldrin <span class="amp">&</span> Rensie</h1>
+      <p class="lead" id="tagline">Horror, misteri e videogiochi. In due, con voi.</p>
+      <div class="pills"><span class="pill">🎮 Videogiochi</span><span class="pill">👻 Horror</span><span class="pill">🚀 Live & storie</span></div>
+    </header>
+    <div id="demo" class="demo" hidden><strong>Anteprima:</strong> verifica i collegamenti in <code>config.js</code> prima di pubblicare.</div>
+    <section id="featured-wrap" aria-label="Episodio in evidenza"></section>
+    <div class="section-label">Scegli la tua destinazione</div>
+    <nav id="links" class="links" aria-label="I nostri canali"></nav>
+    <footer>✦ <strong>Grazie di essere parte della ciurma.</strong><br>Meowldrin & Rensie · Nessun cookie o tracker su questa pagina</footer>
+  </main>
+  <script src="config.js"></script>
+  <script>
+  (() => {
+    'use strict';
+    const settings=window.MEOWLDRIN_CONFIG || {};
+    const list=Array.isArray(settings.links)?settings.links:[];
+    const allowedIds=new Set(['youtube','twitch','instagram']);
+    const symbols={
+      youtube:'<rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor"/><path d="m10 9 6 3-6 3z" fill="#211936"/>',
+      twitch:'<path d="M4 3h18v13l-5 5h-5l-3 3v-3H4z" fill="currentColor"/><path d="M11 8v6m6-6v6" stroke="#241a41" stroke-width="2"/>',
+      instagram:'<rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="2.2"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="2.2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/>'
+    };
+    const icon=(key)=>'<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">'+(symbols[key]||symbols.youtube)+'</svg>';
+    const arrow=()=>'<svg class="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    const validUrl=(raw)=>{try{const u=new URL(raw);return u.protocol==='https:'?u.href:null;}catch{return null;}};
+    const configured=list.filter(x=>allowedIds.has(x.id)&&validUrl(x.url));
+    const isDemo=configured.length===0&&!validUrl(settings.featured?.url);
+    document.getElementById('demo').hidden=!isDemo;
+    if(settings.tagline)document.getElementById('tagline').textContent=settings.tagline;
+    const featured=settings.featured||{};
+    const featUrl=validUrl(featured.url);
+    if(featUrl||isDemo){
+      const feat=document.createElement(featUrl?'a':'div');
+      feat.className='featured'+(featUrl?'':' disabled');
+      if(featUrl){feat.href=featUrl;feat.target='_blank';feat.rel='noopener noreferrer';feat.setAttribute('aria-label','Apri i contenuti in evidenza su YouTube');}
+      const el=document.createElement('div');el.className='kicker';el.textContent=featured.eyebrow||'ORA SU YOUTUBE';feat.append(el);
+      const h=document.createElement('h2');h.textContent=featured.title||'Il nostro nuovo episodio è online';feat.append(h);
+      const p=document.createElement('p');p.textContent=featured.description||'Guarda il nuovo episodio.';feat.append(p);
+      const cta=document.createElement('div');cta.className='featured-cta';cta.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>';cta.append(document.createTextNode(' '+(featured.cta||'Apri su YouTube')));feat.append(cta);
+      document.getElementById('featured-wrap').append(feat);
+    }
+    const shown=isDemo?list.filter(x=>allowedIds.has(x.id)):configured;
+    for(const item of shown){
+      const url=validUrl(item.url);const a=document.createElement(url?'a':'div');
+      a.className='link'+(url?'':' disabled');
+      if(url){a.href=url;a.target='_blank';a.rel='noopener noreferrer';}
+      const iconWrap=document.createElement('div');iconWrap.className='link-icon '+item.id;iconWrap.innerHTML=icon(item.id);a.append(iconWrap);
+      const content=document.createElement('div');content.className='link-main';
+      const title=document.createElement('div');title.className='link-title';title.textContent=item.label||item.id;
+      const sub=document.createElement('div');sub.className='link-sub';sub.textContent=item.description||'';
+      content.append(title,sub);a.append(content);
+      const arrowHolder=document.createElement('span');arrowHolder.innerHTML=arrow();a.append(arrowHolder.firstElementChild);
+      document.getElementById('links').append(a);
+    }
+  })();
+  </script>
+</body>
+</html>
